@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Fan Experience Packages</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        /* Additional CSS for the main section */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+        }
+        .left-section, .right-section {
+            flex: 1;
+            padding: 20px;
+        }
+        .left-section {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+        }
+        .right-section {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+            display: flex;
+            flex-direction: column;
+            width: 70%; /* Adjust width as needed */
+            margin: auto; /* Center horizontally */
+            height: 70%;
+        }
+
+        .title {
+            font-family: 'Anton', sans-serif;
+            font-size: 36px; /* Adjust font size as needed */
+            font-weight: bold;
+            color: white;
+            margin-bottom: 20px; /* Adjust margin as needed */
+        }
+        .description {
+            font-size: 18px; /* Adjust font size as needed */
+            color: white;
+            margin-bottom: 20px; /* Adjust margin as needed */
+        }
+        .map, .video {
+            flex: 1;
+        }
+        .map {
+            margin-bottom: 20px; /* Adjust margin as needed */
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/league of ireland logo.webp" alt="Football Fan Experience Logo">
+            <h1>Football Fan Experience Packages</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="packages.html">Our Packages</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="loiblog.html">Loi Blog</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <button onclick="scrollToTop()">See Bottom</button>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="left-section">
+                <div class="title">Welcome to Football Fan Experience Packages!</div>
+                <div class="description">
+                    Welcome to Football Fan Experience Packages, your premier destination for all things football. At FFEP, we're passionate about bringing the excitement of the game to fans everywhere. With a dedication to providing unparalleled experiences, we offer exclusive football fan packages designed to immerse you in the heart of the action. From VIP tickets to live matches and access to meet-and-greets with your favorite players, to discounts on official team merchandise and unforgettable post-game celebrations, we're here to elevate your game day experience. To explore our offerings further, check out our map to locate us and watch our thrilling trailer video to get a sneak peek into the excitement awaiting you. Join us as we celebrate the spirit of football and create memories that last a lifetime. Get ready to embrace your inner fanatic with Football Fan Experience Packages!
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="map">
+                    <!-- Insert your active map code here -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.4501250219146!2d-6.23093212302308!3d53.33519817555731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ec268eb8af9%3A0xe37e998e72032668!2sAviva%20Stadium!5e0!3m2!1sen!2sie!4v1713368944720!5m2!1sen!2sie" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="video">
+                    <!-- Insert your video code here -->
+                    <iframe width="600" height="300" src="https://www.youtube.com/embed/P-PGIH-1Pgk?si=JvR4XBYMwGklhuxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Football Fan Experience Packages</p>
+        </div>
+            <div class="contact-options">
+                <h5>Other Contact Options</h5>
+                <p>Phone: +1 123-456-7890</p>
+                <p>Email: info@footballfanexperience.com</p>
+                <a href="contactus.html" style="color: white;">Contact Form Link</a>
+            </div>
+            <button onclick="scrollToTop()">Back to Top</button>
+        </div>
+    </footer>
+</body>
+</html>

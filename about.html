@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Fan Experience Packages</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        /* Additional CSS for the main section */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+        }
+        .left-section, .right-section {
+            flex: 1;
+            padding: 20px;
+        }
+        .left-section {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+        }
+        .right-section {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+            display: flex;
+            flex-direction: column;
+            width: 70%; /* Adjust width as needed */
+            margin: auto; /* Center horizontally */
+            height: 70%;
+        }
+
+        .title {
+            font-family: 'Anton', sans-serif;
+            font-size: 36px; /* Adjust font size as needed */
+            font-weight: bold;
+            color: white;
+            margin-bottom: 20px; /* Adjust margin as needed */
+        }
+        .description {
+            font-size: 18px; /* Adjust font size as needed */
+            color: white;
+            margin-bottom: 20px; /* Adjust margin as needed */
+        }
+        .map, .video {
+            flex: 1;
+        }
+        .map {
+            margin-bottom: 20px; /* Adjust margin as needed */
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/league of ireland logo.webp" alt="Football Fan Experience Logo">
+            <h1>Football Fan Experience Packages</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="packages.html">Our Packages</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="loiblog.html">Loi Blog</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <button onclick="scrollToTop()">See Bottom</button>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="left-section">
+                <div class="title">About our company!</div>
+                <div class="description">
+                    Welcome to Football Fan Experience Packages! We're on a mission to make the FAI Cup finals accessible and affordable for all fans. Our program was born out of a desire to provide the best matchday experiences without breaking the bank. Each year, we're thrilled to see attendance grow as more fans join us in celebrating the excitement of the FAI Cup. On the right, you'll find a table showcasing past winners, attendance numbers, and ticket prices, highlighting the tournament's rich history and increasing popularity. Join us in experiencing the thrill of football like never before!
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="images/trophy.jpg" alt="Example Poster" class="poster">
+                <table border="1"
+                    <tr>
+                        <td>FAI Cup Stats 2023</td>
+                        <td>FAI Cup Stats 2022</td>
+                        <td>FAI Cup Stats 2021</td>
+                        <td>FAI Cup Stats 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Winners: St Pats FC</td>
+                        <td>Winners: Shamrock Rovers</td>
+                        <td>Winners: Dundalk FC</td>
+                        <td>Winners: Derry City FC</td>
+                    </tr>
+                    <tr>
+                        <td>Ticket Cost: €40</td>
+                        <td>Ticket Cost: €35</td>
+                        <td>Ticket Cost: €35</td>
+                        <td>Ticket Cost: €30</td>
+                    </tr>
+                    <tr>
+                        <td>Attendance: 43,800</td>
+                        <td>Attendance: 35,200</td>
+                        <td>Attendance: 36,900</td>
+                        <td>Attendance: 25,700</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Football Fan Experience Packages</p>
+        </div>
+            <div class="contact-options">
+                <h5>Other Contact Options</h5>
+                <p>Phone: +1 123-456-7890</p>
+                <p>Email: info@footballfanexperience.com</p>
+                <a href="contactus.html" style="color: white;">Contact Form Link</a>
+            </div>
+            <button onclick="scrollToTop()">Back to Top</button>
+        </div>
+    </footer>
+</body>
+</html>
